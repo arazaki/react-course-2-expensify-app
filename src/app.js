@@ -10,8 +10,11 @@ import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
 import moment from 'moment';
+import numeral from './locale/pt-br';
 
+// switch between locales
 moment.locale('pt-br'); 
+numeral();
 
 const store = configureStore();
 
